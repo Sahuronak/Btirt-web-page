@@ -1,0 +1,48 @@
+/* element selector */
+p {
+    border: 2px solid red;
+    font-family:  Courier, monospace;
+    font-size: 24px 
+    /* 1/96 of an inches */
+    line-height
+
+}
+
+
+/* id selector */
+#firstpara{
+    color: aqua;
+    background-color: tomato;
+
+}
+/* class selector */
+.selector {
+    color: red;
+    background-color: aqua;
+
+}
+/* group selector */
+footer, h4 {
+    color: pink;
+    background-color: green;
+}
+.developer{
+    color: purple;
+    font-style: italic;
+    background-color: aquamarine;
+}
+.colorcss{
+    color: pink;
+    background: #a34;
+
+}
+.secondpara {
+    background-color: yellowgreen;
+    height: 100px;
+    width: 300px;
+    border: green;
+    border-style: solid;
+    border-color: #a34;
+    border-radius: 1200px;
+
+}

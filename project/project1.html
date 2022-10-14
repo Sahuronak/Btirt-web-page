@@ -4,30 +4,212 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="project1" href="../css folder/project1.css">
-    <title>Document</title>
+    <!-- <link rel="" href="../css_folder/project1.css"> -->
+    <link rel="stylesheet" href="../css_folder/project1.css">
+    <!-- <link rel="stylesheet" href="../project/project1.scss"> -->
+    <title>edx</title>
 </head>
 <body>
-    <nav class="navigation-bar">
-        <div class="logo">
-            <h1>slice</h1>
+    <div>
+    hello world!
+    </div>
+    <h1>heading of the page</h1>
+    <h2> this is the second headingof this page</h2>
+    <!-- some more <textarea name=" id="" cols="30" rows="10"></textarea> -->
+    some more text
+    lists:
+    <br>
+    ordered lists:
+    <br>
+    <ol>
+        <li>iteam 1 </li>
+        <li>iteam 2</li>
+        <li> iteam 3</li>
+
+    </ol>
+    unoredered list:
+    <br>
+    <ul>
+        <li> unorder 1 </li>
+        <li> unordered 2</li>
+        <li> unordered 3</li>
+    </ul>
+    images:
+    <br>
+    <img src="canva.jpg" alt="nothing">
+    <br>
+    <a href="https://google.com">google.com</a>
+    <!-- <link rel="alternate" href="atom.xml" type="application/atom+xml" title="Atom"> -->
+<br>
+table:
+<br>
+<table>
+<tbody>
+<thead>
+    <tr>
+        <th>ocean</th>
+        <th> average depth</th>
+        <th> maximum depth</th>
+    </tr>
+</thead>
+
+    <tr>
+        <td> pacific ocean</td>
+        <td> 4,567</td>
+        <td> 430505</td>
+    </tr>
+    <tr>
+        <td> atlantic ocean</td>
+        <td> 43,545</td>
+        <td> 53443</td>
+    </tr>
+</tbody>
+</table>
+form:
+<br>
+<form>
+    <input type="text" placeholder="fullname" name="name">
+    <input  type="submit">
+    <div>
+        favorite color?
+        <input name="color" type="radio" value = "red">red
+        <input name="color" type="radio" value="green">green
+        <input name="color" type="radio" value="blue"> blue
+        <input name="color" type="radio" value="other">other
 
         </div>
-        <div class="menu-item">
-            <ul>
-                <li>home</li>
-                <li> about</li>
-                <li>register</li>
-                <li> login</li>
-            </ul>
-        </div>
-    </nav>
+        <input name="country" list="countries" placeholder="country">
+        <datalist id="countries">
+            <option value="india">
+            <option value="usa">
+            <option value="uk">
+        </datalist>
+
+</form> 
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam temporibus aliquam error enim. Consequuntur praesentium sit quidem esse velit iure et saepe quis? Temporibus tempora, eveniet ipsam sapiente hic debitis, molestias impedit quibusdam similique quam ad neque omnis. Odit, dolores excepturi aliquam quam, ea dolorum corrupti esse perferendis architecto dignissimos similique assumenda vero rem cumque eveniet atque dolore nesciunt at aliquid. Ex aliquid sapiente laboriosam minima facere obcaecati eaque aut laudantium, aperiam quo numquam quibusdam quaerat, omnis distinctio molestiae culpa at repudiandae dicta officiis maxime cupiditate. Beatae accusamus itaque repellat voluptas, fuga quam, explicabo blanditiis officiis exercitationem optio mollitia laborum.</p>
+
+<div>
+    specificity:
+    <br>
+    <ol>
+   <li> inline </li>
+   <li>id</li>
+   <li> class</li>
+   <li>  type</li>
+    </ol>
+    <br>
+    css selector:
+    a,b: multiple element selector
+    <br>
+    a>b: descendant selector
+    <br>
+    a+b: adjacent sibling selector
+    <br>
+    [a+b]: attribute selector
+    <br>
+    a:b : pseudoclass selector
+    <br>
+    a::b pseudoelement  selector
+    <br>
+</div>
+    <ol>
+        <li>list iteam one</li>
+        <li>list iteam two</li>
+        <ul>
+            <li>sublist iteam one</li>
+            <li>sublist iteam two</li>
+            <li>sublist iteam three</li>
+        </ul>
+        <li>another list iteam </li>
+        
+    </ol>
+    <br>
+    <ul>
+        <li><a href="https://google.com">google</a></li>
+        <li><a href="https://facebook.com">facebook</a></li>
+        <li><a href="https://instagram.com">instagram</a></li>
+        <li><a href="https://youtube.com">youtube</a></li>
+
+    </ul>
+    <br>
+    <button>click here</button>
+    <br>
+    responsive design
+    <br>
     <p>
-        <div class ="header">
-            <h1> welcome</h1>
-        </div>
-
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, recusandae fugiat iure voluptas asperiores numquam temporibus dolor, mollitia adipisci iste officia sit neque inventore voluptatem accusantium reiciendis aspernatur, quam autem.
+    viewport:it is the visual part of the screen that user 
+    can actually see. so the viewport is the entire area of the web 
+    page that  displys content to the user.
+    -- set according to mobile screen.
     </p>
+    <p>
+    media queries:how our page is going to look depending on how we
+    render that particular page or what size screen we are rendering
+    that page on.
+    media type:
+    print ,screen.....
+    -- media feature : height , width, orientation...
+
+</p>
+    <p>flexbox:flexbox is quite helpful if we have multiple element that
+        we are all trying to display on the same page at the same time
+
+
+    </p>
+    <p>grids:one type of layout for anytime,if want to arrange things in a particular grid ,where maybe certain coloumn need to be certain widths but others can maybe a little bit more flexible.
+
+    </p>
+
+
+<div class="container">
+    <div id="fruits" class="item">
+        <h3>FRUITS</h3>
+        <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Officiis natus numquam asperiores
+              inventore repellat minus iure vel nemo consequuntur, 
+              veritatis id sequi eius reiciendis veniam. Magni totam 
+              delectus consequuntur eius. </p>
+    </div>
+    <div id="Computerpara" class="item">
+        <h3>computer</h3>
+        <p id="computerpara" class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam vero consectetur labore sed! Ratione impedit id recusandae iusto, officiis, odit, soluta modi quisquam vitae dolore distinctio! A, eligendi accusantium.</p>
+    </div>
+    <div id="stationarypara" class="item">
+        <h3>Stationary</h3>
+        <p id="stationarypara" class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laudantium debitis atque quisquam perferendis, quidem repudiandae! Nihil labore quia, consequatur voluptatum inventore architecto facere, quidem, quo doloribus vitae doloremque ea.</p>
+    </div>
+
+</div>
+<br>
+<h1> hello world</h1>
+grid:
+<div id="grid">
+    <div class="grid-iteam">1</div>
+    <div class="grid-iteam">2</div>
+    <div class="grid-iteam">3</div>
+    <div class="grid-iteam">4</div>
+    <div class="grid-iteam">5</div>
+    <div class="grid-iteam">6</div>
+    <div class="grid-iteam">7</div>
+    <div class="grid-iteam">8</div>
+    <div class="grid-iteam">9</div>
+    <div class="grid-iteam">10</div>
+    <div class="grid-iteam">11</div>
+    <div class="grid-iteam">12</div>
+    <div class="grid-iteam">13</div>
+    
+
+</div>
+bootstrap:
+<div class="callout">...
+    <div class="grid-iteam">14</div>
+    <div class="grid-iteam">15</div>
+    <div class="grid-iteam">16</div>
+</div>
+sass:
+sass is a language that is essentially an extension to css
+it adds additional features to what css has to offer just to make 
+it a little bit more powerful for us to be use and manipulate css in a way that,s going to be faster and remove some of the repetition  that might have had in css previously.
+and one of the key features of sass is the ability to have variable
 </body>
 </html>

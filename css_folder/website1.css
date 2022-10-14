@@ -1,0 +1,57 @@
+h1 {
+    text-align: center; 
+    border: 2px solid purple; 
+}
+.navbackground {
+    height: 100px;
+    background-color: skyblue;
+    display: flex;
+    border: 2px solid purple;
+    font-display: solid black;
+
+}
+.nav-list {
+    list-style: none;
+    align-items: right;
+    display: flex;
+    
+}
+ .logo img { 
+    height: 70px;
+     width: 70px; 
+     border-radius: 20px;  
+}
+ .logo {
+    height: 80px;
+    justify-content: center;
+    align-items: center; 
+
+}
+.nav-list li {
+    padding: 20px 40px;
+    font-size: large;
+    text-decoration: none;
+    
+}
+.rightnav {
+    height: 30px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.container  {
+    width: 800px;
+    height: 400px;
+    
+
+}
+#image {
+    height: 400px;
+    width: 400px;
+
+}
+#para1 {
+    align-items: left;
+    display: flex;
+}
